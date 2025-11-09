@@ -109,3 +109,106 @@ h4, label {
 .dark-mode .container {
   background-color: #2c2c2c;
 }
+/* Center login page and add background color/image */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('/background.jpg') no-repeat center center/cover;
+  background-color: #f0f4f8;
+  text-align: center;
+}
+
+.login-container h1 {
+  color:#2c2c2c;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-form input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+}
+
+.login-form button {
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #4caf50;
+  color: #2c2c2c;;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+}
+
+.toggle-link {
+  margin-top: 10px;
+  color: #2c2c2c;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+body, html {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+  color: white;
+  padding: 0 50px;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 15px 30px;
+  background: #FF6B6B;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#login {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background: #f5f5f5;
+}
+
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  width: 350px;
+}
